@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muhammet Gull - Özel Profil</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            /* BURASI ARKA PLAN RENGİ: Koyu ve karizmatik bir geçiş yaptık */
+            background: radial-gradient(circle, #1a1a2e 0%, #16213e 100%); 
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0;
+            color: white;
+        }
+
+        .container {
+            text-align: center;
+            padding: 30px;
+            /* Kartı biraz şeffaf ve cam gibi gösterelim (Glassmorphism) */
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            border-radius: 25px;
+            box-shadow: 0 15px 35px rgba(0,0,0,0.5);
+            width: 85%;
+            max-width: 350px;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        h2 { margin-bottom: 5px; color: #fff; text-shadow: 2px 2px 4px rgba(0,0,0,0.3); }
+        p { font-size: 14px; color: #ccc; margin-bottom: 25px; }
+
+        .trap-button {
+            display: block;
+            background: linear-gradient(45deg, #1d976c, #93f9b9); /* Buton rengi canlı yeşil */
+            color: #000;
+            padding: 18px;
+            text-decoration: none;
+            border-radius: 15px;
+            font-weight: bold;
+            font-size: 16px;
+            box-shadow: 0 5px 20px rgba(29, 151, 108, 0.5);
+            animation: pulse 2s infinite;
+        }
+
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.05); }
+            100% { transform: scale(1); }
+        }
+
+        .insta-link {
+            display: inline-block;
+            margin-top: 20px;
+            color: #93f9b9;
+            text-decoration: none;
+            font-size: 13px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h2>@MUHAMMET_GULLL</h2>
+        <p>Gizli içeriği görüntülemek için aşağıdaki güvenli bağlantıyı kullanın.</p>
+
+        <a href="https://www.instagram.com/stories/muhammet_gulll/3838641010943634501?utm_source=ig_story_item_share&igsh=N2ZxZWM4aGwxejNv" class="trap-button">
+            🔓 GİZLİ İÇERİĞİ AÇ
+        </a>
+
+        <br>
+        <a href="https://instagram.com/MUHAMMET_GULLL" class="insta-link">Profilime Dön</a>
+    </div>
+
+</body>
+</html>
